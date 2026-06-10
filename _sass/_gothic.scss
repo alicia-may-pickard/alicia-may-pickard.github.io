@@ -330,3 +330,62 @@ html, body, .site-header, .page-content, .wrapper {
 a, a:visited {
   color: #b890c0;
 }
+
+@media (max-width: 600px) {
+  .site-nav {
+    background-color: #221e2f !important;
+    border: none !important;
+    box-shadow: none !important;
+    position: static !important;
+    float: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    padding: 8px 0 !important;
+    text-align: left !important;
+  }
+
+  .site-nav .page-link {
+  display: inline !important;
+  margin-left: 0 !important;
+  font-size: 12px !important;
+}
+
+.site-nav .trigger {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+}
+  .site-nav .page-link {
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+  .site-header .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper {
+    padding: 16px 20px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-intro {
+    font-size: 16px;
+  }
+  .card-icon {
+  display: none;
+}
+}
