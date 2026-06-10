@@ -20,12 +20,12 @@
 
 title: Alicia May Pickard
 email: alicia.may.pickard@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My name is Alicia May Pickard and I am a Physics Master's Student at the University of Exeter.
-  I am fascinated by the origins of life and the challenge of discovering it beyond Earth, 
-  with a focus on using computational modelling and scientific programming to aid in this search.
-  Alongside my academic pursuits, I write as another way of exploring the unknown and navigating life's complexities.
-  This site brings together the two sides of my work: analytical and technical while also creative and expressive.
+# description: >- # this means to ignore newlines until "baseurl:"
+ # My name is Alicia May Pickard and I am a Physics Master's Student at the University of Exeter.
+ # I am fascinated by the origins of life and the challenge of discovering it beyond Earth, 
+  # with a focus on using computational modelling and scientific programming to aid in this search.
+  # Alongside my academic pursuits, I write as another way of exploring the unknown and navigating life's complexities.
+  # This site brings together the two sides of my work: analytical and technical while also creative and expressive.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alicia-may-pickard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -55,3 +55,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - about.markdown
+  - academia.markdown
+  - writing.markdown
+  - creative.markdown
+  - contact.markdown
