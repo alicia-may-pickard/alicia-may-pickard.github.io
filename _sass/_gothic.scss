@@ -1,3 +1,15 @@
+$brand-color: #2a2535;
+$brand-color-light: #2a2535;
+$brand-color-dark: #2a2535;
+$site-title-color: #e8e0d5;
+$background-color: #2a2535;
+$border-color-01: #6a5a7a;
+$border-color-02: #6a5a7a;
+$border-color-03: #6a5a7a;
+body {
+  border-top: none !important;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=EB+Garamond:ital,wght@0,400;1,400&display=swap');
 
 body {
@@ -25,7 +37,7 @@ a:hover {
 }
 
 .site-header {
-  background-color: #221e2f;
+  background-color: #221e2f !important;
   padding: 12px 0;
   border-bottom: 1px solid #6a5a7a;
 }
@@ -39,7 +51,7 @@ a:hover {
 }
 
 .site-nav {
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -53,8 +65,9 @@ a:hover {
 }
 
 .site-footer {
-  background-color: #2a2535;
+  background-color: #221d2e;
   color: #4a4050;
+  border-top: 1px solid #6a5a7a;
 }
 
 .post-title {
@@ -83,7 +96,7 @@ a:hover {
 
 .hero-title {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 52px;
+  font-size: 60px;
   font-weight: 300;
   color: #f0e8e0;
   letter-spacing: 0.08em;
@@ -91,7 +104,7 @@ a:hover {
 }
 
 .hero-subtitle {
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #8b5e8b;
@@ -106,7 +119,7 @@ a:hover {
 }
 
 .hero-intro {
-  font-size: 18px;
+  font-size: 20px;
   color: #9a8f99;
   line-height: 1.8;
   font-style: italic;
@@ -137,7 +150,7 @@ a:hover {
 
 .page-content h2 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 300;
   color: #f0e8e0;
   letter-spacing: 0.06em;
@@ -151,7 +164,7 @@ a:hover {
 
 .page-content h3 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
   color: #b890c0;
   letter-spacing: 0.04em;
@@ -190,7 +203,7 @@ a:hover {
   margin-left: 28px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .card-grid {
@@ -218,7 +231,7 @@ a:hover {
 }
 
 .card-icon {
-  font-size: 16px;
+  font-size: 20px;
   color: #6a5a7a;
   letter-spacing: 4px;
 }
@@ -235,7 +248,7 @@ a:hover {
 }
 
 .card-desc {
-  font-size: 15px;
+  font-size: 19px;
   color: #7a7080;
   line-height: 1.6;
   font-style: italic;
@@ -256,8 +269,8 @@ a:hover {
 
 .footer-copy {
   text-align: center;
-  font-size: 13px;
-  color: #4a4050;
+  font-size: 15px;
+  color: #9a8f99;
   letter-spacing: 0.08em;
   padding: 20px 0;
   margin: 0;
@@ -302,7 +315,18 @@ a:hover {
 
 
 .site-header .wrapper {
-  padding: 0 24px;
-  margin-left: +280px;
+  padding: 0 16px;
+  margin-left: 0px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+html, body, .site-header, .page-content, .wrapper {
+  border-top: none !important;
+}
+
+a, a:visited {
+  color: #b890c0;
+}
