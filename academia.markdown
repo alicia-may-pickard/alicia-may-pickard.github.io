@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Academia
+title: Academia and Skills
 permalink: /academia/
 ---
 
