@@ -59,7 +59,7 @@ body_class: home
   <a class="card" href="/creative/">
     <div class="card-icon"><i class="ti ti-palette"></i></div>
     <div class="card-title">Creative Work</div>
-    <p class="card-desc">Projects and expressions beyong the page.</p>
+    <p class="card-desc">Projects and expressions beyond the page.</p>
     <div class="card-arrow">→</div>
   </a>
  
